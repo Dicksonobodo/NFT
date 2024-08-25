@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mainn {
+    color: white;
+    background: linear-gradient(to right,rgb(70, 17, 65), black, black);
+    height: 100vh;
+}
+.navbar {
+    background: linear-gradient(to right,rgb(62, 27, 62), black, black);
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+.list {
+    display: flex;
+    text-decoration: none;
+    gap: 3rem;
+    list-style: none;
+}
+.sec2 {
+    display: flex;
+    gap: 2rem;
+}
+.reg {
+    background-color: rgb(57, 55, 55);
+    width: 80px;
+    height: 20px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px;
+}
+@font-face {
+    font-family: 'Detacher';
+    src: url("../fonts/Detacher.ttf") format('truetype');
+}
+.main {
+    font-family: 'Detacher', sans-serif;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-top: 50px;
+}
+.p1 {
+    font-size: 50px;
+    margin-bottom: 60px;
+
+}
+.p2 {
+    margin-bottom: 60px;
+}
+.demo {
+    position: relative;
+    top: 8px;
+}
+.num {
+    display: flex;
+    gap: 2rem;
+    margin-top: 100px;
+    font-size: larger;
+}
+.lists {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    font-size: xx-small;
+    color: purple;
+    
+}
+.plus {
+    color: purple;
+}
+.uni {
+    color: purple;
+}
+.btn {
+    background-color: rgb(57, 55, 55);
+    width: 80px;
+    height: 20px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px;
+    margin-bottom: 60px;
+}
+.side {
+    margin-top: 80px;
+}
+.flex {
+    display: flex;
+}
+@keyframes upAndDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bear {
+    animation: upAndDown 1.5s ease-in-out infinite;
+}
+@keyframes swipeIn {
+    0% {
+        transform: translate(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.p1, .p2, .btn, .num, .lists, .watch {
+    opacity: 0;
+    animation: swipeIn 2s ease-in-out forwards;
+}
+.one:hover {
+    color: purple;
+    border-bottom: 1px solid purple;
+}
+.two:hover {
+    color: purple;
+    border-bottom: 1px solid purple;
+}
+.three:hover {
+    color: purple;
+    border-bottom: 1px solid purple;
+}
