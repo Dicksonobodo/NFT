@@ -138,9 +138,9 @@
     color: purple;
     border-bottom: 1px solid purple;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .mainn{
-        height: 100%;
+        /* height: 100%; */
         text-align: center;
         padding-top: 10px;
     }
@@ -150,7 +150,7 @@
     .navbar {
         padding: 20px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .list {
         gap: 1rem;
@@ -172,5 +172,5 @@
     .lists {
         display: flex;
         justify-content: center;
-    }
+    } 
 }
