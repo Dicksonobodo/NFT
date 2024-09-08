@@ -5,7 +5,8 @@
 .mainn {
     color: white;
     background: linear-gradient(to right,rgb(70, 17, 65), black, black);
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 210px;
 }
 .navbar {
     background: linear-gradient(to right,rgb(62, 27, 62), black, black);
@@ -136,4 +137,40 @@
 .three:hover {
     color: purple;
     border-bottom: 1px solid purple;
+}
+@media (max-width: 600px) {
+    .mainn{
+        height: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .bear {
+        display: none;
+    }
+    .navbar {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .list {
+        gap: 1rem;
+    }
+    .demo {
+        width: 8%;
+    }
+    .watch {
+        font-size: 15px;
+    }
+    .num {
+        display: flex;
+        justify-content: center;
+    }
+    .list {
+        margin-top: 80px;
+        margin-left: 30px;
+    }
+    .lists {
+        display: flex;
+        justify-content: center;
+    }
 }
